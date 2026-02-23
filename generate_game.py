@@ -1,19 +1,13 @@
 import os
-import requests
 from PIL import Image, ImageDraw
 
 # 1. Fetch GitHub Data
 username = os.getenv("USERNAME", "ArvendraChhonkar")
 token = os.getenv("GITHUB_TOKEN")
 
-headers = {"Authorization": f"Bearer {token}"} if token else {}
-# Note: In a full version, use GitHub's GraphQL API to pull the actual contribution calendar graph.
-# For now, we simulate finding the 0-commit days.
-
 def get_empty_commit_days():
-    # Logic to parse your contribution graph goes here.
-    # Return a list of coordinates (x, y) that represent days with 0 commits.
-    return [(10, 50), (30, 50), (50, 50)] # Placeholder coordinates
+    # Placeholder coordinates representing days with 0 commits.
+    return [(10, 50), (30, 50), (50, 50)] 
 
 # 2. Build the GIF Frames
 def generate_gif():
