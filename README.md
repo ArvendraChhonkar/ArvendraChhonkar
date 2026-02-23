@@ -29,14 +29,12 @@
   <img src="https://github-readme-stats.vercel.app/api?username=ArvendraChhonkar&show_icons=true&theme=radical" alt="Arvendra's GitHub Stats" />
 </p>
 
-### 👾 My Daily Contributions
-*(To make this animation work, you will need to set up a GitHub Action. See below!)*
+### 👾 My Daily Commits: Space Shooter
+*(Watch the spaceship break down my contributions!)*
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ArvendraChhonkar/ArvendraChhonkar/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ArvendraChhonkar/ArvendraChhonkar/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/ArvendraChhonkar/ArvendraChhonkar/output/github-contribution-grid-snake.svg">
-</picture>
+<p align="center">
+  <img src="gh-space-shooter.gif" alt="Space Shooter Commit Animation" width="100%">
+</p>
 
 ## 📫 Let's Connect!
 * [cite_start]**Email:** arvendrachhonkar@gmail.com [cite: 2]
