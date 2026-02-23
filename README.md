@@ -22,19 +22,9 @@
 * [cite_start]**[Live Chatting Application](link_to_repo):** Developed a real-time chat application using Python sockets with a PyQt5/QtPy-based GUI. [cite: 23, 26]
 
 ## 📈 GitHub Stats & Commits
-
-*(This section uses GitHub Readme Stats with a dark theme, plus an animated contribution snake!)*
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ArvendraChhonkar&show_icons=true&theme=radical" alt="Arvendra's GitHub Stats" />
-</p>
-
 ### 👾 My Daily Commits: Space Shooter
-*(Watch the spaceship break down my contributions!)*
-
-<p align="center">
-  <img src="gh-space-shooter.gif" alt="Space Shooter Commit Animation" width="100%">
-</p>
+### 🚀 Defending My Repo (Zero-Commit Hunter)
+![Space Shooter](inverted-shooter.gif)
 
 ## 📫 Let's Connect!
 * [cite_start]**Email:** arvendrachhonkar@gmail.com [cite: 2]
