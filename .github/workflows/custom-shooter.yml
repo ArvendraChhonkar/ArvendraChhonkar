@@ -1,0 +1,38 @@
+name: Inverted Space Shooter (Zero-Commit Hunter)
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Runs daily at midnight
+  workflow_dispatch: # Allows manual testing
+
+permissions:
+  contents: write
+
+jobs:
+  generate-animation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Image and API Libraries
+        run: pip install requests Pillow
+
+      - name: Run Custom Game Engine Script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+        run: python generate_game.py
+
+      - name: Commit and Push New Animation
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add inverted-shooter.gif
+          git commit -m "Generated new zero-commit hunter animation" || echo "No changes to commit"
+          git push
